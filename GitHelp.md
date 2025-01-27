@@ -1,4 +1,9 @@
-# Starting Off
+# Starting Off with Git
+
+## What is Git?
+Git is a version control system that locally stores the versions and changes to a project.
+These changes can then be merged with the original after testing and review.<br>
+It can be installed by downloading it from https://git-scm.com/downloads/win and going though the normal executions you would do with any other application.
 
 ## Configuring your device
 Changing name/email: git config --global user.[name/email] "*Name*"<br>
@@ -33,3 +38,14 @@ Create new branch: git checkout -b "*BranchName*"<br>
 Change branch: git checkout "*BranchName*"<br>
 Merge branches: git merge "*BranchName*"<br>
 [If there are conflicts in merging, open the file!]
+
+
+## Summary
+Git is like a brain:
+- the working stage being your short term memory where you add or change information
+- the staging stage is the working memory pushing information back and forth
+- the repo stage is the long term memory, a large collection of everything you knew and the changes made
+- these 'memories' can then be uploaded to GitHub for everyone to see
+The main commands are to do with managing file location and are summarised here:
+!["Stages of Git"](C:\Users\jimmo\PyCharmMiscProject\git-staging-workflow.png)
+- 
