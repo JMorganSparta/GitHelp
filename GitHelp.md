@@ -27,3 +27,9 @@ Entire network repo to local: git clone (*URL*)<br>
 Pull modified repo (already on local): git pull origin
 
 ## Branches
+A branch is a way of editing the documents before the changes are implimented in the main file.
+See the branch: git branch<br>
+Create new branch: git checkout -b "*BranchName*"<br>
+Change branch: git checkout "*BranchName*"<br>
+Merge branches: git merge "*BranchName*"<br>
+[If there are conflicts in merging, open the file!]
